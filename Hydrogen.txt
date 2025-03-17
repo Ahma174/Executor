@@ -63,7 +63,7 @@ local serverHopModes = { "full", "empty", "bestPing", "random" };
 
 local resizeFunctions, languageItems, languageDatabase = {}, {}, {
 	English = {
-		flag = "gb.png",
+		flag = "92084782314815",
 		indicator = "English",
 		order = 1,
 		phrases = {
@@ -99,7 +99,7 @@ local resizeFunctions, languageItems, languageDatabase = {}, {}, {
 		}
 	},
 	Turkish = {
-		flag = "tr.png",
+		flag = "72152943748499",
 		indicator = "Türkçe",
 		order = 2,
 		phrases = {
@@ -135,7 +135,7 @@ local resizeFunctions, languageItems, languageDatabase = {}, {}, {
 		}
 	},
 AzeriTurkish = {
-        flag = "az.png",
+        flag = "140559031667034",
         indicator = "Azəri Türkcəsi",
         order = 3,
         phrases = {
@@ -200,7 +200,7 @@ AzeriTurkish = {
 		}
 	},
 	Latvian = {
-		flag = "lv.png",
+		flag = "110779931949960",
 		indicator = "Latviski",
 		order = 5,
 		phrases = {
@@ -236,7 +236,7 @@ AzeriTurkish = {
 		}
 	},
 	Dutch = {
-		flag = "nl.png",
+		flag = "104203536543483",
 		indicator = "Nederlands",
 		order = 6,
 		phrases = {
@@ -272,7 +272,7 @@ AzeriTurkish = {
 		}
 	},
 	Filipino = {
-		flag = "ph.png",
+		flag = "102056545377834",
 		indicator = "Filipino",
 		order = 7,
 		phrases = {
@@ -308,7 +308,7 @@ AzeriTurkish = {
 		}
 	},
 	German = {
-		flag = "de.png",
+		flag = "134032304933016",
 		indicator = "Deustch",
 		order = 8,
 		phrases = {
@@ -344,7 +344,7 @@ AzeriTurkish = {
 		}
 	},
 	Romanian = {
-		flag = "ro.png",
+		flag = "76869483649186",
 		indicator = "Română",
 		order = 9,
 		phrases = {
@@ -380,7 +380,7 @@ AzeriTurkish = {
 		}
 	},
 	Russian = {
-		flag = "ru.png",
+		flag = "78437923837319",
 		indicator = "Русский",
 		order = 10,
 		phrases = {
@@ -416,7 +416,7 @@ AzeriTurkish = {
 		}
 	},
 	French = {
-		flag = "fr.png",
+		flag = "123417082392610",
 		indicator = "Français",
 		order = 11,
 		phrases = {
@@ -452,7 +452,7 @@ AzeriTurkish = {
 		}
 	},
 	Arabic = {
-		flag = "sa.png",
+		flag = "135220982778722",
 		indicator = "عربي",
 		order = 12,
 		phrases = {
@@ -1332,7 +1332,7 @@ local function loadKeyUI(callback)
 			local clone = template:Clone();
 			clone.Name = v.key;
 			clone.title.Text = v.value.indicator;
-			clone.flagContainer.icon.Image = string.format("rbxasset://hydrogen/hydroui/%s", v.value.flag);
+			clone.flagContainer.icon.Image = string.format("rbxassetid://%s", v.value.flag);
 
 			clone.MouseButton1Click:Connect(function()
 				updateSettings("language", v.key);
@@ -1948,7 +1948,7 @@ local function loadMainUI()
 								AnchorPoint = Vector2.new(1, 0.5), 
 								BackgroundColor3 = Color3.fromHex("ffffff"), 
 								BackgroundTransparency = 1, 
-								Image = "rbxasset://108336023338517", 
+								Image = "rbxassetid://108336023338517", 
 								Name = "icon", 
 								Position = UDim2.new(1, -6, 0.5, 0), 
 								Size = UDim2.new(0, 14, 0, 14)
@@ -3774,7 +3774,7 @@ local function loadMainUI()
 				local clone = template:Clone();
 				clone.Name = v.key;
 				clone.title.Text = v.value.indicator;
-				clone.flagContainer.icon.Image = string.format("rbxasset://hydrogen/hydroui/%s", v.value.flag);
+				clone.flagContainer.icon.Image = string.format("rbxassetid://%s", v.value.flag);
 
 				clone.MouseButton1Click:Connect(function()
 					title.Text = v.value.indicator;
@@ -3861,7 +3861,7 @@ local function loadMainUI()
 				local clone = template:Clone();
 				clone.Name = i;
 				clone.title.Text = i;
-				clone.iconContainer.icon.Image = "rbxasset://hydrogen/hydroui/" .. v;
+				clone.iconContainer.icon.Image = "" .. v;
 
 				clone.MouseButton1Click:Connect(function()
 					title.Text = i;
