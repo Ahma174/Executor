@@ -1,0 +1,901 @@
+local _ = _G.NebulaUi
+
+_G.NebulaUi = true
+
+local _call5 = Instance.new('ScreenGui', gethui())
+
+_call5.IgnoreGuiInset = true
+_call5.ScreenInsets = Enum.ScreenInsets.None
+_call5.Name = 'NebulaCoreGui'
+_call5.ResetOnSpawn = false
+
+local _call9 = Instance.new('ImageButton', _call5)
+
+_call9.BorderSizePixel = 0
+_call9.ScaleType = Enum.ScaleType.Fit
+_call9.ImageTransparency = 0.55
+_call9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_call9.ImageColor3 = Color3.fromRGB(0, 0, 0)
+_call9.Image = 'rbxassetid://73617481494303'
+_call9.Size = UDim2.new(0.05481, 0, 0.09878, 0)
+_call9.BackgroundTransparency = 1
+_call9.Name = 'ArrowButton'
+_call9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call9.Rotation = 180
+_call9.Position = UDim2.new(0.18181, 0, 0.44999, 0)
+
+Instance.new('LocalScript', _call9)
+
+local _call25 = Instance.new('Frame', _call5)
+
+_call25.BorderSizePixel = 0
+_call25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call25.Size = UDim2.new(0.81795, 0, 1, 0)
+_call25.Position = UDim2.new(1, 0, 0, 0)
+_call25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call25.Name = 'Script Saver'
+_call25.BackgroundTransparency = 0.1
+
+local _call35 = Instance.new('UIGradient', _call25)
+
+_call35.Rotation = 150
+
+local _call45 = ColorSequence.new({
+    [1] = ColorSequenceKeypoint.new(0, Color3.fromRGB(30, 30, 30)),
+    [2] = ColorSequenceKeypoint.new(1, Color3.fromRGB(17, 17, 17)),
+})
+
+_call35.Color = _call45
+
+local _call47 = Instance.new('Frame', _call25)
+
+_call47.BorderSizePixel = 0
+_call47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call47.Size = UDim2.new(0.93597, 0, 0.90286, 0)
+_call47.Position = UDim2.new(0.04101, 0, 0.05682, 0)
+_call47.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call47.BackgroundTransparency = 1
+
+local _call57 = Instance.new('UICorner', _call47)
+
+_call57.CornerRadius = UDim.new(0, 24)
+
+local _call61 = Instance.new('TextBox', _call47)
+
+_call61.TextColor3 = Color3.fromRGB(252, 253, 255)
+_call61.PlaceholderColor3 = Color3.fromRGB(66, 68, 71)
+_call61.BorderSizePixel = 0
+_call61.TextWrapped = true
+_call61.TextSize = 14
+_call61.Name = 'SearchBar'
+_call61.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+_call61.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call61.ClearTextOnFocus = false
+_call61.PlaceholderText = 'Search'
+_call61.Size = UDim2.new(0.91846, 0, 0.08356, 0)
+_call61.Position = UDim2.new(-0.00611, 0, 0.01111, 0)
+_call61.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call61.Text = ''
+_call61.BackgroundTransparency = 0.6
+
+local _call81 = Instance.new('UICorner', _call61)
+
+_call81.CornerRadius = UDim.new(0, 18)
+
+local _call85 = Instance.new('LocalScript', _call61)
+
+_call85.Name = 'FontScript'
+
+local _call87 = Instance.new('LocalScript', _call47)
+
+_call87.Name = 'Saver Scripts'
+
+local _call89 = Instance.new('ImageButton', _call47)
+
+_call89.BorderSizePixel = 0
+_call89.ScaleType = Enum.ScaleType.Fit
+_call89.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call89.Image = 'rbxassetid://120982473017061'
+_call89.Size = UDim2.new(0.05594, 0, 0.08356, 0)
+_call89.BackgroundTransparency = 1
+_call89.Name = 'CreateTab'
+_call89.BorderColor3 = Color3.fromRGB(255, 255, 255)
+_call89.Rotation = 270
+_call89.Position = UDim2.new(0.92133, 0, 0.01111, 0)
+
+local _call101 = Instance.new('ScrollingFrame', _call47)
+
+_call101.Active = true
+_call101.BorderSizePixel = 0
+_call101.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call101.ScrollBarImageTransparency = 0.8
+_call101.Size = UDim2.new(1.00622, 0, 0.87845, 0)
+_call101.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+_call101.Position = UDim2.new(-0.00622, 0, 0.12155, 0)
+_call101.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call101.BackgroundTransparency = 1
+
+local _call113 = Instance.new('Frame', _call101)
+
+_call113.Visible = false
+_call113.BorderSizePixel = 0
+_call113.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call113.Size = UDim2.new(0.25028, 0, 0.12733, 0)
+_call113.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call113.Name = 'ScriptFrame'
+_call113.BackgroundTransparency = 1
+
+local _call121 = Instance.new('ImageButton', _call113)
+
+_call121.BorderSizePixel = 0
+_call121.ScaleType = Enum.ScaleType.Crop
+_call121.ImageTransparency = 0.5
+_call121.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_call121.Image = 'rbxassetid://72797583317405'
+_call121.Size = UDim2.new(0.84089, 0, 0.86062, 0)
+_call121.BackgroundTransparency = 1
+_call121.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call121.Position = UDim2.new(0.07786, 0, 0.06733, 0)
+
+local _call133 = Instance.new('UICorner', _call121)
+
+_call133.CornerRadius = UDim.new(0, 22)
+
+local _call137 = Instance.new('TextLabel', _call121)
+
+_call137.TextWrapped = true
+_call137.BorderSizePixel = 0
+_call137.TextXAlignment = Enum.TextXAlignment.Left
+_call137.TextScaled = true
+_call137.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call137.TextSize = 14
+_call137.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+_call137.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call137.BackgroundTransparency = 1
+_call137.Size = UDim2.new(0.36549, 0, 0.24423, 0)
+_call137.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call137.Name = 'NameLabel'
+_call137.Position = UDim2.new(0.07528, 0, 0.06409, 0)
+
+Instance.new('LocalScript', _call137)
+
+local _call159 = Instance.new('ImageButton', _call121)
+
+_call159.BorderSizePixel = 0
+_call159.ScaleType = Enum.ScaleType.Fit
+_call159.ImageTransparency = 0.9
+_call159.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call159.Image = 'rbxassetid://124859024643181'
+_call159.Size = UDim2.new(0.195, 0, 0.375, 0)
+_call159.BackgroundTransparency = 1
+_call159.Name = 'Delete'
+_call159.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call159.Position = UDim2.new(0.06203, 0, 0.57727, 0)
+
+local _call171 = Instance.new('UIGridLayout', _call101)
+
+_call171.CellSize = UDim2.new(0.25, 0, 0.127, 0)
+_call171.SortOrder = Enum.SortOrder.LayoutOrder
+_call171.CellPadding = UDim2.new(0, 0, 0, 0)
+
+local _call179 = Instance.new('Frame', _call47)
+
+_call179.Visible = false
+_call179.BorderSizePixel = 0
+_call179.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_call179.Size = UDim2.new(0.3921, 0, 0.59128, 0)
+_call179.Position = UDim2.new(0.25667, 0, 0.22889, 0)
+_call179.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call179.Name = 'CreateFrame'
+_call179.BackgroundTransparency = 0.8
+
+local _call189 = Instance.new('UICorner', _call179)
+
+_call189.CornerRadius = UDim.new(0, 24)
+
+local _call193 = Instance.new('TextButton', _call179)
+
+_call193.BorderSizePixel = 0
+_call193.TextSize = 14
+_call193.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call193.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_call193.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call193.Size = UDim2.new(0.13474, 0, 0.11813, 0)
+_call193.BackgroundTransparency = 1
+_call193.Name = 'Exit'
+_call193.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call193.Text = 'x'
+_call193.Position = UDim2.new(0.83421, 0, 0.02115, 0)
+
+Instance.new('UICorner', _call193)
+Instance.new('LocalScript', _call193)
+
+local _call215 = Instance.new('TextBox', _call179)
+
+_call215.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call215.BorderSizePixel = 0
+_call215.TextWrapped = true
+_call215.TextSize = 14
+_call215.Name = 'Name Script'
+_call215.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+_call215.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call215.PlaceholderText = 'Script Name'
+_call215.Size = UDim2.new(0.72779, 0, 0.14169, 0)
+_call215.Position = UDim2.new(0.13747, 0, 0.27502, 0)
+_call215.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call215.Text = ''
+
+local _call233 = Instance.new('UICorner', _call215)
+
+_call233.CornerRadius = UDim.new(0, 12)
+
+Instance.new('LocalScript', _call215)
+
+local _call239 = Instance.new('TextBox', _call179)
+
+_call239.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call239.BorderSizePixel = 0
+_call239.TextWrapped = true
+_call239.TextSize = 14
+_call239.Name = 'Script Code'
+_call239.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+_call239.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call239.PlaceholderText = 'Input Script'
+_call239.Size = UDim2.new(0.72779, 0, 0.142, 0)
+_call239.Position = UDim2.new(0.13747, 0, 0.51215, 0)
+_call239.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call239.Text = ''
+
+local _call257 = Instance.new('UICorner', _call239)
+
+_call257.CornerRadius = UDim.new(0, 12)
+
+Instance.new('LocalScript', _call239)
+
+local _call263 = Instance.new('TextLabel', _call179)
+
+_call263.BorderSizePixel = 0
+_call263.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call263.TextSize = 14
+_call263.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call263.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call263.BackgroundTransparency = 1
+_call263.Size = UDim2.new(0.30354, 0, 0.1845, 0)
+_call263.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call263.Text = ' Script Creator'
+_call263.Name = 'TextCreate'
+_call263.Position = UDim2.new(0.34427, 0, 0.05159, 0)
+
+Instance.new('LocalScript', _call263)
+
+local _call283 = Instance.new('TextButton', _call179)
+
+_call283.BorderSizePixel = 0
+_call283.TextSize = 14
+_call283.SelectionOrder = 1
+_call283.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call283.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_call283.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call283.Size = UDim2.new(0.31838, 0, 0.15332, 0)
+_call283.BackgroundTransparency = 0.2
+_call283.Name = 'Create'
+_call283.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call283.Text = 'Create Script'
+_call283.Position = UDim2.new(0.328, 0, 0.72574, 0)
+
+local _call301 = Instance.new('UICorner', _call283)
+
+_call301.CornerRadius = UDim.new(0, 12)
+
+local _call305 = Instance.new('LocalScript', _call5)
+
+_call305.Name = 'ArrowHandler'
+
+local _call307 = Instance.new('Frame', _call5)
+
+_call307.BorderSizePixel = 0
+_call307.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call307.Size = UDim2.new(0.81795, 0, 1, 0)
+_call307.Position = UDim2.new(1, 0, 0, 0)
+_call307.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call307.Name = 'ScriptHUBFrame'
+_call307.BackgroundTransparency = 0.1
+
+local _call317 = Instance.new('Frame', _call307)
+
+_call317.BorderSizePixel = 0
+_call317.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call317.Size = UDim2.new(0.93597, 0, 0.90286, 0)
+_call317.Position = UDim2.new(0.04101, 0, 0.05682, 0)
+_call317.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call317.BackgroundTransparency = 1
+
+local _call327 = Instance.new('UICorner', _call317)
+
+_call327.CornerRadius = UDim.new(0, 24)
+
+local _call331 = Instance.new('TextBox', _call317)
+
+_call331.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call331.PlaceholderColor3 = Color3.fromRGB(66, 68, 71)
+_call331.BorderSizePixel = 0
+_call331.TextWrapped = true
+_call331.TextSize = 14
+_call331.Name = 'SearchBar'
+_call331.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+_call331.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call331.ClearTextOnFocus = false
+_call331.PlaceholderText = 'Click The Search Button To Search'
+_call331.Size = UDim2.new(0.91846, 0, 0.08356, 0)
+_call331.Position = UDim2.new(-0.00611, 0, 0.01111, 0)
+_call331.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call331.Text = ''
+_call331.BackgroundTransparency = 0.6
+
+local _call351 = Instance.new('UICorner', _call331)
+
+_call351.CornerRadius = UDim.new(0, 18)
+
+local _call355 = Instance.new('LocalScript', _call331)
+
+_call355.Name = 'FontScript'
+
+local _call357 = Instance.new('LocalScript', _call317)
+
+_call357.Name = 'Cloud API'
+
+local _call359 = Instance.new('ImageButton', _call317)
+
+_call359.BorderSizePixel = 0
+_call359.ScaleType = Enum.ScaleType.Fit
+_call359.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call359.Image = 'rbxassetid://135706377351204'
+_call359.Size = UDim2.new(0.05594, 0, 0.08356, 0)
+_call359.BackgroundTransparency = 1
+_call359.Name = 'SearchButton'
+_call359.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call359.Position = UDim2.new(0.92133, 0, 0.01111, 0)
+
+local _call371 = Instance.new('ScrollingFrame', _call317)
+
+_call371.Active = true
+_call371.BorderSizePixel = 0
+_call371.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call371.ScrollBarImageTransparency = 0.8
+_call371.Size = UDim2.new(1.00622, 0, 0.87845, 0)
+_call371.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+_call371.Position = UDim2.new(-0.00622, 0, 0.12155, 0)
+_call371.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call371.BackgroundTransparency = 1
+
+local _call383 = Instance.new('Frame', _call371)
+
+_call383.Visible = false
+_call383.BorderSizePixel = 0
+_call383.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call383.Size = UDim2.new(0.25028, 0, 0.12733, 0)
+_call383.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call383.Name = 'ScriptFrame'
+_call383.BackgroundTransparency = 1
+
+local _call391 = Instance.new('ImageButton', _call383)
+
+_call391.BorderSizePixel = 0
+_call391.ScaleType = Enum.ScaleType.Crop
+_call391.ImageTransparency = 0.5
+_call391.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_call391.Image = 'rbxassetid://72797583317405'
+_call391.Size = UDim2.new(0.84089, 0, 0.86062, 0)
+_call391.BackgroundTransparency = 1
+_call391.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call391.Position = UDim2.new(0.07786, 0, 0.06733, 0)
+
+local _call403 = Instance.new('UICorner', _call391)
+
+_call403.CornerRadius = UDim.new(0, 22)
+
+local _call407 = Instance.new('TextLabel', _call391)
+
+_call407.TextWrapped = true
+_call407.BorderSizePixel = 0
+_call407.TextXAlignment = Enum.TextXAlignment.Left
+_call407.TextScaled = true
+_call407.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call407.TextSize = 14
+_call407.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+_call407.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call407.BackgroundTransparency = 1
+_call407.Size = UDim2.new(0.35142, 0, 0.13579, 0)
+_call407.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call407.Name = 'NameLabel'
+_call407.Position = UDim2.new(0.06825, 0, 0.06409, 0)
+
+Instance.new('LocalScript', _call407)
+
+local _call429 = Instance.new('TextLabel', _call391)
+
+_call429.TextWrapped = true
+_call429.BorderSizePixel = 0
+_call429.TextXAlignment = Enum.TextXAlignment.Left
+_call429.TextTransparency = 0.4
+_call429.TextScaled = true
+_call429.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call429.TextSize = 14
+_call429.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+_call429.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call429.BackgroundTransparency = 1
+_call429.Size = UDim2.new(0.35142, 0, 0.13579, 0)
+_call429.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call429.Name = 'GameLabel'
+_call429.Position = UDim2.new(0.06539, 0, 0.28853, 0)
+
+Instance.new('LocalScript', _call429)
+
+local _call451 = Instance.new('TextLabel', _call391)
+
+_call451.TextWrapped = true
+_call451.BorderSizePixel = 0
+_call451.TextXAlignment = Enum.TextXAlignment.Left
+_call451.TextTransparency = 0.4
+_call451.TextScaled = true
+_call451.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call451.TextSize = 14
+_call451.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+_call451.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call451.BackgroundTransparency = 1
+_call451.Size = UDim2.new(0.35142, 0, 0.13579, 0)
+_call451.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call451.Text = 'View: '
+_call451.Name = 'ViewsLabel'
+_call451.Position = UDim2.new(0.06551, 0, 0.78749, 0)
+
+Instance.new('LocalScript', _call451)
+
+local _call473 = Instance.new('ImageButton', _call391)
+
+_call473.BorderSizePixel = 0
+_call473.ScaleType = Enum.ScaleType.Fit
+_call473.ImageTransparency = 0.8
+_call473.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call473.Image = 'rbxassetid://75630624100276'
+_call473.Size = UDim2.new(0.22994, 0, 0.36302, 0)
+_call473.BackgroundTransparency = 1
+_call473.Name = 'CopyButton'
+_call473.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call473.Position = UDim2.new(0.71893, 0, 0.05481, 0)
+
+local _call485 = Instance.new('UIGridLayout', _call371)
+
+_call485.CellSize = UDim2.new(0.25, 0, 0.127, 0)
+_call485.SortOrder = Enum.SortOrder.LayoutOrder
+_call485.CellPadding = UDim2.new(0, 0, 0, 0)
+
+local _call493 = Instance.new('UIGradient', _call307)
+
+_call493.Rotation = 150
+
+local _call503 = ColorSequence.new({
+    [1] = ColorSequenceKeypoint.new(0, Color3.fromRGB(30, 30, 30)),
+    [2] = ColorSequenceKeypoint.new(1, Color3.fromRGB(17, 17, 17)),
+})
+
+_call493.Color = _call503
+
+local _call505 = Instance.new('LocalScript', _call5)
+
+_call505.Name = 'TabManager'
+
+local _call507 = Instance.new('Frame', _call5)
+
+_call507.BorderSizePixel = 0
+_call507.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call507.Size = UDim2.new(0.81795, 0, 1, 0)
+_call507.Position = UDim2.new(1, 0, 0, 0)
+_call507.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call507.Name = 'EditorFrame'
+_call507.BackgroundTransparency = 0.1
+
+local _call517 = Instance.new('UIGradient', _call507)
+
+_call517.Rotation = 150
+
+local _call527 = ColorSequence.new({
+    [1] = ColorSequenceKeypoint.new(0, Color3.fromRGB(30, 30, 30)),
+    [2] = ColorSequenceKeypoint.new(1, Color3.fromRGB(17, 17, 17)),
+})
+
+_call517.Color = _call527
+
+local _call529 = Instance.new('ScrollingFrame', _call507)
+
+_call529.Active = true
+_call529.ScrollingDirection = Enum.ScrollingDirection.Y
+_call529.BorderSizePixel = 0
+_call529.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+_call529.Size = UDim2.new(0.90192, 0, 0.7986, 0)
+_call529.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+_call529.Position = UDim2.new(0.05627, 0, 0.05916, 0)
+_call529.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call529.ScrollBarThickness = 0
+_call529.BackgroundTransparency = 1
+
+local _call543 = Instance.new('Frame', _call529)
+
+_call543.BorderSizePixel = 0
+_call543.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call543.Size = UDim2.new(0.01764, 0, 0.68182, 0)
+_call543.Position = UDim2.new(0, 0, -0, 0)
+_call543.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call543.Name = 'Line'
+_call543.BackgroundTransparency = 1
+
+local _call553 = Instance.new('TextLabel', _call543)
+
+_call553.TextWrapped = true
+_call553.BorderSizePixel = 0
+_call553.TextTransparency = 0.5
+_call553.TextYAlignment = Enum.TextYAlignment.Top
+_call553.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call553.TextSize = 14
+_call553.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call553.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call553.BackgroundTransparency = 1
+_call553.RichText = true
+_call553.Size = UDim2.new(1.6012, 0, 0.58454, 0)
+_call553.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call553.Text = '1'
+_call553.Name = 'Line Number'
+_call553.Position = UDim2.new(-0.04495, 0, 0.0011, 0)
+
+Instance.new('LocalScript', _call553)
+
+local _call575 = Instance.new('TextBox', _call529)
+
+_call575.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call575.BorderSizePixel = 0
+_call575.TextXAlignment = Enum.TextXAlignment.Left
+_call575.TextWrapped = true
+_call575.TextSize = 14
+_call575.Name = 'SyntaxEditor'
+_call575.TextYAlignment = Enum.TextYAlignment.Top
+_call575.BackgroundColor3 = Color3.fromRGB(8, 8, 8)
+_call575.FontFace = Font.new('rbxasset://fonts/families/RobotoMono.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call575.RichText = true
+_call575.MultiLine = true
+_call575.ClearTextOnFocus = false
+_call575.Size = UDim2.new(0.973, 0, 0.39953, 0)
+_call575.Position = UDim2.new(0.02746, 0, 0, 0)
+_call575.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call575.Text = "print('Hello Nebula')\n-- // https://nebula-rblx.vercel.app/\n-- // https://discord.gg/HrCN6p9MDG"
+_call575.BackgroundTransparency = 1
+
+local _call597 = Instance.new('LocalScript', _call575)
+
+_call597.Name = 'TextBox Script'
+
+local _call599 = Instance.new('UICorner', _call575)
+
+_call599.CornerRadius = UDim.new(0, 24)
+
+local _call603 = Instance.new('ImageButton', _call507)
+
+_call603.BorderSizePixel = 0
+_call603.ScaleType = Enum.ScaleType.Fit
+_call603.ImageTransparency = 0.8
+_call603.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call603.Image = 'rbxassetid://102620750132155'
+_call603.Size = UDim2.new(0.06817, 0, 0.08713, 0)
+_call603.BackgroundTransparency = 1
+_call603.Name = 'EraseButton'
+_call603.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call603.Position = UDim2.new(0.81482, 0, 0.873, 0)
+
+local _call615 = Instance.new('LocalScript', _call507)
+
+_call615.Name = 'Button Functions'
+
+local _call617 = Instance.new('ImageButton', _call507)
+
+_call617.BorderSizePixel = 0
+_call617.ScaleType = Enum.ScaleType.Fit
+_call617.ImageTransparency = 0.8
+_call617.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call617.Image = 'rbxassetid://89377658642763'
+_call617.Size = UDim2.new(0.068, 0, 0.087, 0)
+_call617.BackgroundTransparency = 1
+_call617.Name = 'PasteButton'
+_call617.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call617.Position = UDim2.new(0.72908, 0, 0.87295, 0)
+
+local _call629 = Instance.new('ImageButton', _call507)
+
+_call629.BorderSizePixel = 0
+_call629.ScaleType = Enum.ScaleType.Fit
+_call629.ImageTransparency = 0.8
+_call629.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call629.Image = 'rbxassetid://133881550990419'
+_call629.Size = UDim2.new(0.068, 0, 0.087, 0)
+_call629.BackgroundTransparency = 1
+_call629.Name = 'Execlipboard'
+_call629.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call629.Position = UDim2.new(0.055, 0, 0.873, 0)
+
+local _call641 = Instance.new('ImageButton', _call507)
+
+_call641.BorderSizePixel = 0
+_call641.ScaleType = Enum.ScaleType.Fit
+_call641.ImageTransparency = 0.8
+_call641.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call641.Image = 'rbxassetid://101366584460784'
+_call641.Size = UDim2.new(0.068, 0, 0.087, 0)
+_call641.BackgroundTransparency = 1
+_call641.Name = 'ExecuteButton'
+_call641.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call641.Position = UDim2.new(0.902, 0, 0.873, 0)
+
+local _call653 = Instance.new('Frame', _call5)
+
+_call653.BorderSizePixel = 0
+_call653.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call653.Size = UDim2.new(0.18205, 0, 1, 0)
+_call653.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call653.Name = 'MainBar'
+
+local _call661 = Instance.new('Frame', _call653)
+
+_call661.ZIndex = 2
+_call661.BorderSizePixel = 0
+_call661.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call661.Size = UDim2.new(1, 0, 0.16711, 0)
+_call661.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call661.Name = 'NebulaFrame'
+_call661.BackgroundTransparency = 1
+
+local _call669 = Instance.new('ImageLabel', _call661)
+
+_call669.BorderSizePixel = 0
+_call669.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call669.ScaleType = Enum.ScaleType.Fit
+_call669.Image = 'rbxassetid://124422681408723'
+_call669.Size = UDim2.new(0.5143, 0, 1, 0)
+_call669.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call669.BackgroundTransparency = 1
+_call669.Position = UDim2.new(0.03579, 0, 0, 0)
+
+local _call681 = Instance.new('TextLabel', _call661)
+
+_call681.TextWrapped = true
+_call681.BorderSizePixel = 0
+_call681.TextXAlignment = Enum.TextXAlignment.Left
+_call681.TextScaled = true
+_call681.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call681.TextSize = 14
+_call681.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+_call681.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call681.BackgroundTransparency = 1
+_call681.Size = UDim2.new(0.42435, 0, 0.21356, 0)
+_call681.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call681.Text = 'EBULA  |  ANDROID'
+_call681.Position = UDim2.new(0.38345, 0, 0.39, 0)
+
+Instance.new('LocalScript', _call681)
+
+local _call703 = Instance.new('UIGradient', _call653)
+
+_call703.Rotation = 150
+
+local _call713 = ColorSequence.new({
+    [1] = ColorSequenceKeypoint.new(0, Color3.fromRGB(30, 30, 30)),
+    [2] = ColorSequenceKeypoint.new(1, Color3.fromRGB(17, 17, 17)),
+})
+
+_call703.Color = _call713
+
+local _call715 = Instance.new('Frame', _call653)
+
+_call715.ZIndex = 2
+_call715.BorderSizePixel = 0
+_call715.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call715.Size = UDim2.new(1, 0, 0.32587, 0)
+_call715.Position = UDim2.new(0, 0, 0.3359, 0)
+_call715.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call715.BackgroundTransparency = 1
+
+local _call725 = Instance.new('TextButton', _call715)
+
+_call725.BorderSizePixel = 0
+_call725.TextSize = 14
+_call725.TextColor3 = Color3.fromRGB(0, 0, 0)
+_call725.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call725.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call725.ZIndex = 2
+_call725.Size = UDim2.new(1, 0, 0.33409, 0)
+_call725.BackgroundTransparency = 1
+_call725.Name = 'EditorButton'
+_call725.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call725.Text = ''
+
+local _call741 = Instance.new('ImageLabel', _call725)
+
+_call741.BorderSizePixel = 0
+_call741.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call741.ScaleType = Enum.ScaleType.Fit
+_call741.ImageTransparency = 0.8
+_call741.Image = 'rbxassetid://132512041642474'
+_call741.Size = UDim2.new(0.16473, 0, 0.56324, 0)
+_call741.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call741.BackgroundTransparency = 1
+_call741.Name = 'IconLabel'
+_call741.Position = UDim2.new(0.08455, 0, 0.20945, 0)
+
+local _call753 = Instance.new('TextLabel', _call725)
+
+_call753.BorderSizePixel = 0
+_call753.TextTransparency = 0.6
+_call753.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call753.TextSize = 14
+_call753.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+_call753.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call753.BackgroundTransparency = 1
+_call753.Size = UDim2.new(0.33634, 0, 0.33634, 0)
+_call753.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call753.Text = 'Edit'
+_call753.Position = UDim2.new(0.25563, 0, 0.31417, 0)
+
+Instance.new('LocalScript', _call753)
+
+local _call773 = Instance.new('ImageLabel', _call725)
+
+_call773.BorderSizePixel = 0
+_call773.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call773.ScaleType = Enum.ScaleType.Fit
+_call773.ImageTransparency = 0.8
+_call773.Image = 'rbxassetid://73617481494303'
+_call773.Size = UDim2.new(0.16473, 0, 0.56324, 0)
+_call773.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call773.BackgroundTransparency = 1
+_call773.Name = 'ArrowLabel'
+_call773.Position = UDim2.new(0.77201, 0, 0.20945, 0)
+
+local _call785 = Instance.new('UIListLayout', _call715)
+
+_call785.SortOrder = Enum.SortOrder.LayoutOrder
+
+local _call789 = Instance.new('TextButton', _call715)
+
+_call789.BorderSizePixel = 0
+_call789.TextSize = 14
+_call789.TextColor3 = Color3.fromRGB(0, 0, 0)
+_call789.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call789.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call789.ZIndex = 2
+_call789.Size = UDim2.new(1, 0, 0.33296, 0)
+_call789.BackgroundTransparency = 1
+_call789.Name = 'ScriptHubButton'
+_call789.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call789.Text = ''
+_call789.Position = UDim2.new(0, 0, 0.33409, 0)
+
+local _call807 = Instance.new('ImageLabel', _call789)
+
+_call807.BorderSizePixel = 0
+_call807.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call807.ScaleType = Enum.ScaleType.Fit
+_call807.ImageTransparency = 0.8
+_call807.Image = 'rbxassetid://101830799512350'
+_call807.Size = UDim2.new(0.16473, 0, 0.56324, 0)
+_call807.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call807.BackgroundTransparency = 1
+_call807.Name = 'IconLabel'
+_call807.Position = UDim2.new(0.09203, 0, 0.20945, 0)
+
+local _call819 = Instance.new('TextLabel', _call789)
+
+_call819.TextWrapped = true
+_call819.BorderSizePixel = 0
+_call819.TextTransparency = 0.6
+_call819.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call819.TextSize = 14
+_call819.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+_call819.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call819.BackgroundTransparency = 1
+_call819.Size = UDim2.new(0.33634, 0, 0.33634, 0)
+_call819.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call819.Text = 'Hub'
+_call819.Position = UDim2.new(0.25563, 0, 0.31417, 0)
+
+Instance.new('LocalScript', _call819)
+
+local _call839 = Instance.new('ImageLabel', _call789)
+
+_call839.BorderSizePixel = 0
+_call839.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call839.ScaleType = Enum.ScaleType.Fit
+_call839.ImageTransparency = 0.8
+_call839.Image = 'rbxassetid://73617481494303'
+_call839.Size = UDim2.new(0.16473, 0, 0.56324, 0)
+_call839.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call839.BackgroundTransparency = 1
+_call839.Name = 'ArrowLabel'
+_call839.Position = UDim2.new(0.77201, 0, 0.20945, 0)
+
+local _call851 = Instance.new('TextButton', _call715)
+
+_call851.BorderSizePixel = 0
+_call851.TextSize = 14
+_call851.TextColor3 = Color3.fromRGB(0, 0, 0)
+_call851.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call851.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call851.ZIndex = 2
+_call851.Size = UDim2.new(1, 0, 0.33296, 0)
+_call851.BackgroundTransparency = 1
+_call851.Name = 'Script Saver'
+_call851.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call851.Text = ''
+_call851.Position = UDim2.new(0, 0, 0.66704, 0)
+
+local _call869 = Instance.new('ImageLabel', _call851)
+
+_call869.BorderSizePixel = 0
+_call869.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call869.ScaleType = Enum.ScaleType.Fit
+_call869.ImageTransparency = 0.8
+_call869.Image = 'rbxassetid://124244731222044'
+_call869.Size = UDim2.new(0.16473, 0, 0.56324, 0)
+_call869.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call869.BackgroundTransparency = 1
+_call869.Name = 'IconLabel'
+_call869.Position = UDim2.new(0.09203, 0, 0.20945, 0)
+
+local _call881 = Instance.new('TextLabel', _call851)
+
+_call881.BorderSizePixel = 0
+_call881.TextTransparency = 0.6
+_call881.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call881.TextSize = 14
+_call881.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+_call881.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call881.BackgroundTransparency = 1
+_call881.Size = UDim2.new(0.33634, 0, 0.33634, 0)
+_call881.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call881.Text = 'Save'
+_call881.Position = UDim2.new(0.256, 0, 0.314, 0)
+
+Instance.new('LocalScript', _call881)
+
+local _call901 = Instance.new('ImageLabel', _call851)
+
+_call901.BorderSizePixel = 0
+_call901.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call901.ScaleType = Enum.ScaleType.Fit
+_call901.ImageTransparency = 0.8
+_call901.Image = 'rbxassetid://73617481494303'
+_call901.Size = UDim2.new(0.16473, 0, 0.56324, 0)
+_call901.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call901.BackgroundTransparency = 1
+_call901.Name = 'ArrowLabel'
+_call901.Position = UDim2.new(0.77201, 0, 0.20945, 0)
+
+local _call913 = Instance.new('Frame', _call653)
+
+_call913.ZIndex = 2
+_call913.BorderSizePixel = 0
+_call913.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call913.Size = UDim2.new(1, 0, 0.16711, 0)
+_call913.Position = UDim2.new(0, 0, 0.82888, 0)
+_call913.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_call913.Name = 'SettingBTNFrame'
+_call913.BackgroundTransparency = 1
+
+local _call923 = Instance.new('TextButton', _call913)
+
+_call923.BorderSizePixel = 0
+_call923.TextSize = 14
+_call923.TextColor3 = Color3.fromRGB(0, 0, 0)
+_call923.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_call923.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+_call923.Size = UDim2.new(1, 0, 0.57269, 0)
+_call923.BackgroundTransparency = 1
+_call923.Name = 'SettingButton'
+
+error('internal 557: <25ms: infinitelooperror>')

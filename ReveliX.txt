@@ -1,0 +1,1357 @@
+local r3_1 = game:GetService("Players")
+local r1_1 = Instance.new("ScreenGui")
+r0_1["1"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+r1_1 = Instance.new("Frame", r0_1["1"])
+r0_1["2"].BorderSizePixel = 0
+local r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["2"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.48502, 0, 0.57292, 0)
+r0_1["2"].Size = r2_1
+r2_1 = UDim2.new(0.25828, 0, 0.2128, 0)
+r0_1["2"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["2"].BorderColor3 = r2_1
+r0_1["2"].Name = "ui"
+r1_1 = Instance.new("UICorner", r0_1["2"])
+r1_1 = Instance.new("TextLabel", r0_1["2"])
+r0_1["4"].TextWrapped = true
+r0_1["4"].BorderSizePixel = 0
+r0_1["4"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["4"].BackgroundColor3 = r2_1
+r0_1["4"].TextSize = 25.0
+r2_1 = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["4"].FontFace = r2_1
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["4"].TextColor3 = r2_1
+r0_1["4"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.34305, 0, 0.12987, 0)
+r0_1["4"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["4"].BorderColor3 = r2_1
+r0_1["4"].Text = "ReveliX | Android"
+r2_1 = UDim2.new(0.02401, 0, 0, 0)
+r0_1["4"].Position = r2_1
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["4"])
+r0_1["5"].MaxTextSize = 25.0
+r1_1 = Instance.new("Frame", r0_1["2"])
+r0_1["6"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["6"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.9434, 0, 0.00519, 0)
+r0_1["6"].Size = r2_1
+r2_1 = UDim2.new(0.02916, 0, 0.10909, 0)
+r0_1["6"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["6"].BorderColor3 = r2_1
+r0_1["6"].Name = "line1"
+r1_1 = Instance.new("Frame", r0_1["2"])
+r0_1["7"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["7"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.00343, 0, 0.86753, 0)
+r0_1["7"].Size = r2_1
+r2_1 = UDim2.new(0.2693, 0, 0.10909, 0)
+r0_1["7"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["7"].BorderColor3 = r2_1
+r0_1["7"].Name = "line2"
+r1_1 = Instance.new("TextButton", r0_1["2"])
+r0_1["8"].TextWrapped = true
+r0_1["8"].BorderSizePixel = 0
+r0_1["8"].TextSize = 14.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["8"].TextColor3 = r2_1
+r0_1["8"].TextScaled = true
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["8"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["8"].FontFace = r2_1
+r2_1 = UDim2.new(0.23842, 0, 0.1039, 0)
+r0_1["8"].Size = r2_1
+r0_1["8"].Name = "Button2"
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["8"].BorderColor3 = r2_1
+r0_1["8"].Text = "Editor"
+r2_1 = UDim2.new(0.01887, 0, 0.26753, 0)
+r0_1["8"].Position = r2_1
+r1_1 = Instance.new("UICorner", r0_1["8"])
+r1_1 = Instance.new("ImageLabel", r0_1["8"])
+r0_1.a.BorderSizePixel = 0
+r2_1 = Color3.fromRGB(48.0, 52.0, 59.0)
+r0_1.a.BackgroundColor3 = r2_1
+r0_1.a.Image = "rbxassetid://13587561191"
+r2_1 = UDim2.new(0.21583, 0, 0.75, 0)
+r0_1.a.Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1.a.BorderColor3 = r2_1
+r2_1 = UDim2.new(0.05036, 0, 0.125, 0)
+r0_1.a.Position = r2_1
+r1_1 = Instance.new("UICorner", r0_1.a)
+r1_1 = Instance.new("UIStroke", r0_1.a)
+r1_1 = Instance.new("LocalScript", r0_1["8"])
+r1_1 = Instance.new("LocalScript", r0_1["8"])
+r1_1 = Instance.new("LocalScript", r0_1["8"])
+r1_1 = Instance.new("LocalScript", r0_1["8"])
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["8"])
+r0_1["11"].MaxTextSize = 14.0
+r1_1 = Instance.new("TextButton", r0_1["2"])
+r0_1["12"].TextWrapped = true
+r0_1["12"].BorderSizePixel = 0
+r0_1["12"].TextSize = 14.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["12"].TextColor3 = r2_1
+r0_1["12"].TextScaled = true
+r2_1 = Color3.fromRGB(69.0, 68.0, 78.0)
+r0_1["12"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["12"].FontFace = r2_1
+r2_1 = UDim2.new(0.23842, 0, 0.1039, 0)
+r0_1["12"].Size = r2_1
+r0_1["12"].Name = "Button1"
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["12"].BorderColor3 = r2_1
+r0_1["12"].Text = "Home"
+r2_1 = UDim2.new(0.01887, 0, 0.16364, 0)
+r0_1["12"].Position = r2_1
+r1_1 = Instance.new("UICorner", r0_1["12"])
+r1_1 = Instance.new("ImageLabel", r0_1["12"])
+r0_1["14"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(46.0, 51.0, 57.0)
+r0_1["14"].BackgroundColor3 = r2_1
+r0_1["14"].Image = "rbxassetid://13587639638"
+r2_1 = UDim2.new(0.21583, 0, 0.75, 0)
+r0_1["14"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["14"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.05036, 0, 0.125, 0)
+r0_1["14"].Position = r2_1
+r1_1 = Instance.new("UICorner", r0_1["14"])
+r1_1 = Instance.new("UIStroke", r0_1["14"])
+r1_1 = Instance.new("LocalScript", r0_1["12"])
+r1_1 = Instance.new("LocalScript", r0_1["12"])
+r1_1 = Instance.new("LocalScript", r0_1["12"])
+r1_1 = Instance.new("LocalScript", r0_1["12"])
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["12"])
+r0_1["1b"].MaxTextSize = 14.0
+r1_1 = Instance.new("Frame", r0_1["2"])
+r0_1["1c"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["1c"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.71698, 0, 0.86753, 0)
+r0_1["1c"].Size = r2_1
+r2_1 = UDim2.new(0.27273, 0, 0.11429, 0)
+r0_1["1c"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["1c"].BorderColor3 = r2_1
+r0_1["1c"].Name = "home screen"
+r1_1 = Instance.new("Frame", r0_1["1c"])
+r0_1["1d"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["1d"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.9067, 0, 0.23952, 0)
+r0_1["1d"].Size = r2_1
+r2_1 = UDim2.new(0.04545, 0, 0.28144, 0)
+r0_1["1d"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["1d"].BorderColor3 = r2_1
+r0_1["1d"].Name = "key status"
+r1_1 = Instance.new("UICorner", r0_1["1d"])
+r1_1 = Instance.new("UIStroke", r0_1["1d"])
+r0_1["1f"].Thickness = 2.0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["1f"].Color = r2_1
+r1_1 = Instance.new("ImageLabel", r0_1["1d"])
+r0_1["20"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["20"].BackgroundColor3 = r2_1
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["20"].ImageColor3 = r2_1
+r0_1["20"].Image = "rbxassetid://6034983856"
+r2_1 = UDim2.new(0.10554, 0, 0.5, 0)
+r0_1["20"].Size = r2_1
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["20"].BorderColor3 = r2_1
+r0_1["20"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.04749, 0, 0.075, 0)
+r0_1["20"].Position = r2_1
+r1_1 = Instance.new("UIAspectRatioConstraint", r0_1["20"])
+r1_1 = Instance.new("TextLabel", r0_1["1d"])
+r0_1["22"].TextWrapped = true
+r0_1["22"].BorderSizePixel = 0
+r0_1["22"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["22"].BackgroundColor3 = r2_1
+r0_1["22"].TextSize = 30.0
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+r0_1["22"].FontFace = r2_1
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["22"].TextColor3 = r2_1
+r0_1["22"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.46045, 0, 0.35, 0)
+r0_1["22"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["22"].BorderColor3 = r2_1
+r0_1["22"].Text = "Key expires"
+r2_1 = UDim2.new(0.09235, 0, 0.11355, 0)
+r0_1["22"].Position = r2_1
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["22"])
+r0_1["23"].MaxTextSize = 27.0
+r1_1 = Instance.new("Frame", r0_1["1d"])
+r0_1["24"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(25.0, 203.0, 0)
+r0_1["24"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.92612, 0, 0.2875, 0)
+r0_1["24"].Size = r2_1
+r2_1 = UDim2.new(0.0462, 0, 0.6, 0)
+r0_1["24"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["24"].BorderColor3 = r2_1
+r1_1 = Instance.new("UICorner", r0_1["24"])
+r2_1 = UDim.new(2.0, 2.0)
+r0_1["25"].CornerRadius = r2_1
+r1_1 = Instance.new("TextLabel", r0_1["24"])
+r0_1["26"].TextWrapped = true
+r0_1["26"].BorderSizePixel = 0
+r0_1["26"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["26"].BackgroundColor3 = r2_1
+r0_1["26"].TextSize = 24.0
+r2_1 = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+r0_1["26"].FontFace = r2_1
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["26"].TextColor3 = r2_1
+r0_1["26"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.5698, 0, 0.56522, 0)
+r0_1["26"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["26"].BorderColor3 = r2_1
+r0_1["26"].Text = "100%"
+r2_1 = UDim2.new(0.20513, 0, 0.26087, 0)
+r0_1["26"].Position = r2_1
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["26"])
+r0_1["27"].MaxTextSize = 24.0
+r1_1 = Instance.new("UIAspectRatioConstraint", r0_1["26"])
+r0_1["28"].AspectRatio = 15.38461
+r1_1 = Instance.new("UIAspectRatioConstraint", r0_1["24"])
+r0_1["29"].AspectRatio = 15.26087
+r1_1 = Instance.new("TextLabel", r0_1["1d"])
+r0_1["2a"].TextWrapped = true
+r0_1["2a"].BorderSizePixel = 0
+r0_1["2a"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["2a"].BackgroundColor3 = r2_1
+r0_1["2a"].TextSize = 25.0
+r2_1 = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["2a"].FontFace = r2_1
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["2a"].TextColor3 = r2_1
+r0_1["2a"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.36939, 0, 0.35, 0)
+r0_1["2a"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["2a"].BorderColor3 = r2_1
+r0_1["2a"].Text = "In Never"
+r2_1 = UDim2.new(0.4367, 0, 0.12605, 0)
+r0_1["2a"].Position = r2_1
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["2a"])
+r0_1["2b"].MaxTextSize = 27.0
+r1_1 = Instance.new("UIAspectRatioConstraint", r0_1["1d"])
+r0_1["2c"].AspectRatio = 4.7375
+r1_1 = Instance.new("NumberValue", r0_1["1c"])
+r0_1["2d"].Name = "update_rate"
+r0_1["2d"].Value = 1.0
+r1_1 = Instance.new("LocalScript", r0_1["1c"])
+r0_1["2e"].Name = "counter_main"
+r1_1 = Instance.new("TextLabel", r0_1["1c"])
+r0_1["2f"].TextWrapped = true
+r0_1["2f"].TextStrokeTransparency = 0.5
+r0_1["2f"].TextXAlignment = Enum.TextXAlignment.Right
+r0_1["2f"].TextScaled = true
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["2f"].BackgroundColor3 = r2_1
+r0_1["2f"].TextSize = 14.0
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+r0_1["2f"].FontFace = r2_1
+r2_1 = Color3.fromRGB(75.0, 255.0, 66.0)
+r0_1["2f"].TextColor3 = r2_1
+r0_1["2f"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.23685, 0, 0.16628, 0)
+r0_1["2f"].Size = r2_1
+r2_1 = Color3.fromRGB(28.0, 43.0, 54.0)
+r0_1["2f"].BorderColor3 = r2_1
+r0_1["2f"].Text = "0 FPS"
+r0_1["2f"].Name = "fps_label"
+r2_1 = UDim2.new(0.60169, 0, 0.68565, 0)
+r0_1["2f"].Position = r2_1
+r1_1 = Instance.new("UIAspectRatioConstraint", r0_1["2f"])
+r0_1["30"].AspectRatio = 1.78266
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["2f"])
+r0_1["31"].MaxTextSize = 51.0
+r1_1 = Instance.new("Frame", r0_1["1c"])
+r0_1["32"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["32"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.36842, 0, 0.44311, 0)
+r0_1["32"].Size = r2_1
+r2_1 = UDim2.new(0.0451, 0, 0.54997, 0)
+r0_1["32"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["32"].BorderColor3 = r2_1
+r0_1["32"].Name = "inf yield"
+r1_1 = Instance.new("UICorner", r0_1["32"])
+r1_1 = Instance.new("UIStroke", r0_1["32"])
+r0_1["34"].Thickness = 2.0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["34"].Color = r2_1
+r1_1 = Instance.new("TextLabel", r0_1["32"])
+r0_1["35"].TextWrapped = true
+r0_1["35"].BorderSizePixel = 0
+r0_1["35"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["35"].BackgroundColor3 = r2_1
+r0_1["35"].TextSize = 25.0
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Italic)
+r0_1["35"].FontFace = r2_1
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["35"].TextColor3 = r2_1
+r0_1["35"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(1.3961, 0, 0.31081, 0)
+r0_1["35"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["35"].BorderColor3 = r2_1
+r0_1["35"].Text = "INF Yield"
+r2_1 = UDim2.new(-0.20354, 0, -0.00098, 0)
+r0_1["35"].Position = r2_1
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["35"])
+r0_1["36"].MaxTextSize = 25.0
+r1_1 = Instance.new("TextLabel", r0_1["32"])
+r0_1["37"].TextWrapped = true
+r0_1["37"].BorderSizePixel = 0
+r0_1["37"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["37"].BackgroundColor3 = r2_1
+r0_1["37"].TextSize = 15.0
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["37"].FontFace = r2_1
+r2_1 = Color3.fromRGB(145.0, 145.0, 145.0)
+r0_1["37"].TextColor3 = r2_1
+r0_1["37"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.92208, 0, 0.17568, 0)
+r0_1["37"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["37"].BorderColor3 = r2_1
+r0_1["37"].Text = "A universal admin script"
+r2_1 = UDim2.new(0.03672, 0, 0.23551, 0)
+r0_1["37"].Position = r2_1
+r1_1 = Instance.new("UITextSizeConstraint", r0_1["37"])
+r0_1["38"].MaxTextSize = 17.0
+r1_1 = Instance.new("ImageButton", r0_1["32"])
+r0_1["39"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(27.0, 80.0, 160.0)
+r0_1["39"].BackgroundColor3 = r2_1
+r0_1["39"].Image = "rbxassetid://13625975635"
+r2_1 = UDim2.new(0.35714, 0, 0.37162, 0)
+r0_1["39"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["39"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.31818, 0, 0.55308, 0)
+r0_1["39"].Position = r2_1
+r2_1 = Instance.new("UICorner", r0_1["39"])
+r2_1 = Instance.new("LocalScript", r0_1["39"])
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["39"])
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["32"])
+r0_1["3d"].AspectRatio = 1.04054
+r2_1 = Instance.new("TextLabel", r0_1["1c"])
+r0_1["3e"].TextWrapped = true
+r0_1["3e"].TextStrokeTransparency = 0.5
+r0_1["3e"].TextXAlignment = Enum.TextXAlignment.Right
+r0_1["3e"].TextScaled = true
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["3e"].BackgroundColor3 = r2_1
+r0_1["3e"].TextSize = 14.0
+r2_1 = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["3e"].FontFace = r2_1
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["3e"].TextColor3 = r2_1
+r0_1["3e"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.7372, 0, 0.16165, 0)
+r0_1["3e"].Size = r2_1
+r2_1 = Color3.fromRGB(28.0, 43.0, 54.0)
+r0_1["3e"].BorderColor3 = r2_1
+r0_1["3e"].Text = "."
+r0_1["3e"].Name = "label"
+r2_1 = UDim2.new(0.21496, 0, 0.04793, 0)
+r0_1["3e"].Position = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["3e"])
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["3e"])
+r0_1["40"].AspectRatio = 5.70728
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["3e"])
+r0_1["41"].MaxTextSize = 53.0
+r2_1 = Instance.new("ImageLabel", r0_1["1c"])
+r0_1["42"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["42"].BackgroundColor3 = r2_1
+r0_1["42"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+r2_1 = UDim2.new(0.16746, 0, 0.20958, 0)
+r0_1["42"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["42"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.02632, 0, 0.02695, 0)
+r0_1["42"].Position = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["42"])
+r2_1 = Instance.new("UICorner", r0_1["42"])
+r2_1 = UDim.new(2.0, 2.0)
+r0_1["44"].CornerRadius = r2_1
+r2_1 = Instance.new("UIStroke", r0_1["42"])
+r0_1["45"].Thickness = 2.0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["45"].Color = r2_1
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["42"])
+r2_1 = Instance.new("LocalScript", r0_1["2"])
+r2_1 = Instance.new("Frame", r0_1["2"])
+r0_1["48"]["Visible"] = false
+r0_1["48"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["48"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.72556, 0, 0.88571, 0)
+r0_1["48"].Size = r2_1
+r2_1 = UDim2.new(0.27273, 0, 0.11429, 0)
+r0_1["48"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["48"].BorderColor3 = r2_1
+r0_1["48"].Name = "excutor screen"
+r2_1 = Instance.new("TextBox", r0_1["48"])
+r0_1["49"]["SelectionStart"] = 1.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["49"].TextColor3 = r2_1
+r0_1["49"].BorderSizePixel = 0
+r0_1["49"].TextXAlignment = Enum.TextXAlignment["Left"]
+r0_1["49"].TextWrapped = true
+r0_1["49"].TextSize = 16.0
+r0_1["49"]["TextYAlignment"] = Enum["TextYAlignment"]["Top"]
+r0_1["49"].TextScaled = true
+r2_1 = Color3.fromRGB(31.0, 31.0, 31.0)
+r0_1["49"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["49"].FontFace = r2_1
+r0_1["49"]["MultiLine"] = true
+r0_1["49"]["ClearTextOnFocus"] = false
+r0_1["49"]["PlaceholderText"] = "? ? Print(\"ReveliX on top!\")"
+r2_1 = UDim2.new(0.96454, 0, 0.82698, 0)
+r0_1["49"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["49"].BorderColor3 = r2_1
+r0_1["49"].Text = ""
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["49"])
+r0_1["4a"].MaxTextSize = 16.0
+r2_1 = Instance.new("TextButton", r0_1["48"])
+r0_1["4b"].TextWrapped = true
+r0_1["4b"].BorderSizePixel = 0
+r0_1["4b"].TextSize = 10.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["4b"].TextColor3 = r2_1
+r0_1["4b"].TextScaled = true
+r2_1 = Color3.fromRGB(69.0, 68.0, 78.0)
+r0_1["4b"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+r0_1["4b"].FontFace = r2_1
+r2_1 = UDim2.new(0.48227, 0, 0.14663, 0)
+r0_1["4b"].Size = r2_1
+r0_1["4b"].Name = "clear"
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["4b"].BorderColor3 = r2_1
+r0_1["4b"].Text = "Clear Editor"
+r2_1 = UDim2.new(0.48227, 0, 0.82698, 0)
+r0_1["4b"].Position = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["4b"])
+r2_1 = Instance.new("UIStroke", r0_1["4b"])
+r0_1["4d"]["ApplyStrokeMode"] = Enum["ApplyStrokeMode"]["Border"]
+r0_1["4d"].Thickness = 2.0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["4d"].Color = r2_1
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["4b"])
+r0_1["4e"].MaxTextSize = 25.0
+r2_1 = Instance.new("TextButton", r0_1["48"])
+r0_1["4f"].TextWrapped = true
+r0_1["4f"].BorderSizePixel = 0
+r0_1["4f"].TextSize = 25.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["4f"].TextColor3 = r2_1
+r2_1 = Color3.fromRGB(69.0, 68.0, 78.0)
+r0_1["4f"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+r0_1["4f"].FontFace = r2_1
+r2_1 = UDim2.new(0.48227, 0, 0.14663, 0)
+r0_1["4f"].Size = r2_1
+r0_1["4f"].Name = "excu"
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["4f"].BorderColor3 = r2_1
+r0_1["4f"].Text = "Execute"
+r2_1 = UDim2.new(0, 0, 0.82698, 0)
+r0_1["4f"].Position = r2_1
+r2_1 = Instance.new("UIStroke", r0_1["4f"])
+r0_1["50"]["ApplyStrokeMode"] = Enum["ApplyStrokeMode"]["Border"]
+r0_1["50"].Thickness = 2.0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["50"].Color = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["4f"])
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["4f"])
+r0_1["52"].MaxTextSize = 25.0
+r2_1 = Instance.new("TextButton", r0_1["2"])
+r0_1["53"].TextWrapped = true
+r0_1["53"].BorderSizePixel = 0
+r0_1["53"].TextSize = 14.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["53"].TextColor3 = r2_1
+r0_1["53"].TextScaled = true
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["53"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["53"].FontFace = r2_1
+r2_1 = UDim2.new(0.23842, 0, 0.1039, 0)
+r0_1["53"].Size = r2_1
+r0_1["53"].Name = "Button4"
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["53"].BorderColor3 = r2_1
+r0_1["53"].Text = "Cloud"
+r2_1 = UDim2.new(0.01887, 0, 0.37143, 0)
+r0_1["53"].Position = r2_1
+r2_1 = Instance.new("UICorner", r0_1["53"])
+r2_1 = Instance.new("ImageLabel", r0_1["53"])
+r0_1["55"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(48.0, 52.0, 59.0)
+r0_1["55"].BackgroundColor3 = r2_1
+r0_1["55"].Image = "rbxassetid://13588228646"
+r2_1 = UDim2.new(0.21583, 0, 0.75, 0)
+r0_1["55"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["55"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.05036, 0, 0.125, 0)
+r0_1["55"].Position = r2_1
+r2_1 = Instance.new("UICorner", r0_1["55"])
+r2_1 = Instance.new("UIStroke", r0_1["55"])
+r2_1 = Instance.new("LocalScript", r0_1["53"])
+r2_1 = Instance.new("LocalScript", r0_1["53"])
+r2_1 = Instance.new("LocalScript", r0_1["53"])
+r2_1 = Instance.new("LocalScript", r0_1["53"])
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["53"])
+r0_1["5c"].MaxTextSize = 14.0
+r2_1 = Instance.new("Frame", r0_1["2"])
+r0_1["5d"]["Visible"] = false
+r0_1["5d"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["5d"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.72556, 0, 0.88571, 0)
+r0_1["5d"].Size = r2_1
+r2_1 = UDim2.new(0.27273, 0, 0.11429, 0)
+r0_1["5d"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["5d"].BorderColor3 = r2_1
+r0_1["5d"].Name = "Cloud screen"
+r2_1 = Instance.new("TextBox", r0_1["5d"])
+r0_1["5e"]["CursorPosition"] = -1.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["5e"].TextColor3 = r2_1
+r0_1["5e"].BorderSizePixel = 0
+r0_1["5e"].TextWrapped = true
+r0_1["5e"].TextSize = 14.0
+r0_1["5e"].Name = "TextBoxuseforsearch"
+r0_1["5e"].TextScaled = true
+r2_1 = Color3.fromRGB(68.0, 68.0, 68.0)
+r0_1["5e"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+r0_1["5e"].FontFace = r2_1
+r0_1["5e"]["ClearTextOnFocus"] = false
+r2_1 = UDim2.new(0.96454, 0, 0.15836, 0)
+r0_1["5e"].Size = r2_1
+r2_1 = UDim2.new(0.01655, 0, 0.0176, 0)
+r0_1["5e"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["5e"].BorderColor3 = r2_1
+r0_1["5e"].Text = ""
+r2_1 = Instance.new("UICorner", r0_1["5e"])
+r2_1 = UDim.new(2.0, 2.0)
+r0_1["5f"].CornerRadius = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["5e"])
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["5e"])
+r0_1["61"].AspectRatio = 7.55556
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["5e"])
+r0_1["62"].MaxTextSize = 14.0
+r2_1 = Instance.new("ScrollingFrame", r0_1["5d"])
+r0_1["63"]["Active"] = true
+r0_1["63"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["63"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.96454, 0, 0.78592, 0)
+r0_1["63"].Size = r2_1
+r3_1 = Color3.fromRGB(0, 0, 0)
+r0_1["63"]["ScrollBarImageColor3"] = r3_1
+r2_1 = UDim2.new(0.01655, 0, 0.17595, 0)
+r0_1["63"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["63"].BorderColor3 = r2_1
+r2_1 = Instance.new("TextButton", r0_1["63"])
+r0_1["64"].TextWrapped = true
+r0_1["64"].BorderSizePixel = 0
+r0_1["64"].TextSize = 30.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["64"].TextColor3 = r2_1
+r0_1["64"]["TextYAlignment"] = Enum["TextYAlignment"]["Bottom"]
+r0_1["64"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 0, 5.0)
+r0_1["64"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+r0_1["64"].FontFace = r2_1
+r2_1 = UDim2.new(0, 177.0, 0, 128.0)
+r0_1["64"].Size = r2_1
+r0_1["64"].Name = "TextButton1"
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["64"].BorderColor3 = r2_1
+r0_1["64"].Text = "title"
+r0_1["64"]["Visible"] = false
+r2_1 = UDim2.new(0.01716, 0, 0.03019, 0)
+r0_1["64"].Position = r2_1
+r2_1 = Instance.new("ImageLabel", r0_1["64"])
+r0_1["65"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["65"].BackgroundColor3 = r2_1
+r0_1["65"].Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+r2_1 = UDim2.new(1.0, 0, 0.78125, 0)
+r0_1["65"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["65"].BorderColor3 = r2_1
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["65"])
+r0_1["66"].AspectRatio = 1.77
+r2_1 = Instance.new("LocalScript", r0_1["64"])
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["64"])
+r0_1["68"].AspectRatio = 1.38281
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["64"])
+r0_1["69"].MaxTextSize = 30.0
+r2_1 = Instance.new("LocalScript", r0_1["63"])
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["63"])
+r0_1["6b"].AspectRatio = 1.52239
+r2_1 = Instance.new("ImageButton", r0_1["5d"])
+r0_1["6c"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["6c"].BackgroundColor3 = r2_1
+r0_1["6c"].Image = "rbxassetid://6031154871"
+r2_1 = UDim2.new(0.1182, 0, 0.14663, 0)
+r0_1["6c"].Size = r2_1
+r0_1["6c"].BackgroundTransparency = 1.0
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["6c"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.0331, 0, 0.02639, 0)
+r0_1["6c"].Position = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["6c"])
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["6c"])
+r2_1 = Instance.new("TextLabel", r0_1["5d"])
+r0_1["6f"].TextWrapped = true
+r0_1["6f"].BorderSizePixel = 0
+r0_1["6f"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["6f"].BackgroundColor3 = r2_1
+r0_1["6f"].TextSize = 14.0
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["6f"].FontFace = r2_1
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["6f"].TextColor3 = r2_1
+r0_1["6f"].BackgroundTransparency = 1.0
+r0_1["6f"]["RichText"] = true
+r2_1 = UDim2.new(0.85334, 0, 0.26346, 0)
+r0_1["6f"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["6f"].BorderColor3 = r2_1
+r0_1["6f"].Text = "Coming soon!"
+r2_1 = UDim2.new(0.05674, 0, 0.35081, 0)
+r0_1["6f"].Position = r2_1
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["6f"])
+r0_1["70"].MaxTextSize = 42.0
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["6f"])
+r0_1["71"].AspectRatio = 4.0
+r2_1 = Instance.new("Frame", r0_1["2"])
+r0_1["72"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["72"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(-0.25043, 0, 0.00519, 0)
+r0_1["72"].Size = r2_1
+r2_1 = UDim2.new(0.2693, 0, 0.80141, 0)
+r0_1["72"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["72"].BorderColor3 = r2_1
+r0_1["72"].Name = "line2"
+r2_1 = Instance.new("TextButton", r0_1["2"])
+r0_1["73"].TextWrapped = true
+r0_1["73"].BorderSizePixel = 0
+r0_1["73"].TextSize = 14.0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["73"].TextColor3 = r2_1
+r0_1["73"].TextScaled = true
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["73"].BackgroundColor3 = r2_1
+r2_1 = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+r0_1["73"].FontFace = r2_1
+r2_1 = UDim2.new(0.23842, 0, 0.1039, 0)
+r0_1["73"].Size = r2_1
+r0_1["73"].Name = "Button3"
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["73"].BorderColor3 = r2_1
+r0_1["73"].Text = "     Settings"
+r2_1 = UDim2.new(0.02401, 0, 0.68312, 0)
+r0_1["73"].Position = r2_1
+r2_1 = Instance.new("UICorner", r0_1["73"])
+r2_1 = Instance.new("ImageLabel", r0_1["73"])
+r0_1["75"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(48.0, 52.0, 59.0)
+r0_1["75"].BackgroundColor3 = r2_1
+r0_1["75"].Image = "rbxassetid://13403501059"
+r2_1 = UDim2.new(0.21583, 0, 0.75, 0)
+r0_1["75"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["75"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.05036, 0, 0.125, 0)
+r0_1["75"].Position = r2_1
+r2_1 = Instance.new("UICorner", r0_1["75"])
+r2_1 = Instance.new("UIStroke", r0_1["75"])
+r2_1 = Instance.new("LocalScript", r0_1["73"])
+r2_1 = Instance.new("LocalScript", r0_1["73"])
+r2_1 = Instance.new("LocalScript", r0_1["73"])
+r2_1 = Instance.new("LocalScript", r0_1["73"])
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["73"])
+r0_1["7c"].MaxTextSize = 14.0
+r2_1 = Instance.new("Frame", r0_1["2"])
+r0_1["7d"]["Visible"] = false
+r0_1["7d"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(43.0, 47.0, 53.0)
+r0_1["7d"].BackgroundColor3 = r2_1
+r2_1 = UDim2.new(0.72727, 0, 0.86234, 0)
+r0_1["7d"].Size = r2_1
+r2_1 = UDim2.new(0.27273, 0, 0.11429, 0)
+r0_1["7d"].Position = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["7d"].BorderColor3 = r2_1
+r0_1["7d"].Name = "settings screen"
+r2_1 = Instance.new("ImageButton", r0_1["7d"])
+r0_1["7e"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["7e"].BackgroundColor3 = r2_1
+r2_1 = Color3.fromRGB(100.0, 100.0, 100.0)
+r0_1["7e"].ImageColor3 = r2_1
+r0_1["7e"].Image = "rbxassetid://6031068429"
+r2_1 = UDim2.new(0.25472, 0, 0.32229, 0)
+r0_1["7e"].Size = r2_1
+r0_1["7e"].BackgroundTransparency = 1.0
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["7e"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.65802, 0, 0.12349, 0)
+r0_1["7e"].Position = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["7e"])
+r2_1 = Instance.new("LocalScript", r0_1["7e"])
+r2_1 = Instance.new("TextLabel", r0_1["7d"])
+r0_1["81"].TextWrapped = true
+r0_1["81"].BorderSizePixel = 0
+r0_1["81"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["81"].BackgroundColor3 = r2_1
+r0_1["81"].TextSize = 17.0
+r2_1 = Font.new("rbxasset://fonts/families/JosefinSans.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+r0_1["81"].FontFace = r2_1
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["81"].TextColor3 = r2_1
+r0_1["81"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.2913, 0, 0.09639, 0)
+r0_1["81"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["81"].BorderColor3 = r2_1
+r0_1["81"].Text = "Unlock FPS"
+r2_1 = UDim2.new(0.02594, 0, 0.05723, 0)
+r0_1["81"].Position = r2_1
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["81"])
+r0_1["82"].MaxTextSize = 22.0
+r2_1 = Instance.new("TextLabel", r0_1["7d"])
+r0_1["83"].TextWrapped = true
+r0_1["83"].BorderSizePixel = 0
+r0_1["83"].TextScaled = true
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["83"].BackgroundColor3 = r2_1
+r0_1["83"].TextSize = 14.0
+r2_1 = Font.new("rbxasset://fonts/families/JosefinSans.json", Enum.FontWeight["Medium"], Enum.FontStyle.Normal)
+r0_1["83"].FontFace = r2_1
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["83"].TextColor3 = r2_1
+r0_1["83"].BackgroundTransparency = 1.0
+r2_1 = UDim2.new(0.4717, 0, 0.1506, 0)
+r0_1["83"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["83"].BorderColor3 = r2_1
+r0_1["83"].Text = "Toggles maximum game FPS."
+r2_1 = UDim2.new(0.08726, 0, 0.21988, 0)
+r0_1["83"].Position = r2_1
+r2_1 = Instance.new("UITextSizeConstraint", r0_1["83"])
+r0_1["84"].MaxTextSize = 48.0
+r2_1 = Instance.new("ImageButton", r0_1["2"])
+r0_1["85"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(255.0, 255.0, 255.0)
+r0_1["85"].BackgroundColor3 = r2_1
+r0_1["85"].Image = "http://www.roblox.com/asset/?id=2751883273"
+r2_1 = UDim2.new(0.07547, 0, 0.10909, 0)
+r0_1["85"].Size = r2_1
+r0_1["85"].BackgroundTransparency = 1.0
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["85"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.91424, 0, 0, 0)
+r0_1["85"].Position = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["85"])
+r2_1 = Instance.new("LocalScript", r0_1["85"])
+r2_1 = Instance.new("ImageButton", r0_1["1"])
+r0_1["88"].BorderSizePixel = 0
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["88"].BackgroundColor3 = r2_1
+r0_1["88"].Image = "rbxassetid://117332238102420"
+r2_1 = UDim2.new(0.08319, 0, 0.14881, 0)
+r0_1["88"].Size = r2_1
+r2_1 = Color3.fromRGB(0, 0, 0)
+r0_1["88"].BorderColor3 = r2_1
+r2_1 = UDim2.new(0.12812, 0, 0.12649, 0)
+r0_1["88"].Position = r2_1
+r2_1 = Instance.new("UICorner", r0_1["88"])
+r2_1 = UDim.new(9.0, 9.0)
+r0_1["89"].CornerRadius = r2_1
+r2_1 = Instance.new("LocalScript", r0_1["88"])
+r2_1 = Instance.new("LocalScript", r0_1["88"])
+r2_1 = Instance.new("UIAspectRatioConstraint", r0_1["88"])
+local r1_1 = function()
+  -- line: [0.0, 0.0] id: 48
+  local r2_48 = Color3.fromHex("#44434d")
+  local r3_48 = function()
+    -- line: [0.0, 0.0] id: 49
+    upval_0.BackgroundColor3 = upval_1
+    return
+  end
+  upval_0.d.Parent.MouseButton1Click:Connect(r3_48)
+  return
+end
+task["spawn"](r1_1)
+local r2_1 = function()
+  -- line: [0.0, 0.0] id: 23
+  local r1_23 = upval_0.e.Parent.Parent:FindFirstChild("Button1")
+  local r2_23 = upval_0.e.Parent.Parent:FindFirstChild("Button3")
+  local r3_23 = upval_0.e.Parent.Parent:FindFirstChild("Button4")
+  local r4_23 = Color3.fromHex("#2a2e34")
+  local r5_23 = function()
+    -- line: [0.0, 0.0] id: 24
+    if not upval_0 then
+      upval_0.BackgroundColor3 = upval_1
+    end
+    if not upval_2 then
+      upval_2.BackgroundColor3 = upval_1
+    end
+    if not upval_3 then
+      upval_3.BackgroundColor3 = upval_1
+    end
+    return
+  end
+  upval_0.e.Parent.MouseButton1Click:Connect(r5_23)
+  return
+end
+task["spawn"](r2_1)
+local r3_1 = function()
+  -- line: [0.0, 0.0] id: 27
+  local r4_27 = function()
+    -- line: [0.0, 0.0] id: 28
+    upval_0.Visible = false
+    upval_1.Visible = false
+    upval_2.Visible = false
+    return
+  end
+  upval_0.f.Parent.MouseButton1Click:Connect(r4_27)
+  return
+end
+task["spawn"](r3_1)
+local r4_1 = function()
+  -- line: [0.0, 0.0] id: 11
+  local r2_11 = function()
+    -- line: [0.0, 0.0] id: 12
+    upval_0.Visible = true
+    return
+  end
+  upval_0["10"].Parent.MouseButton1Click:Connect(r2_11)
+  return
+end
+task["spawn"](r4_1)
+local r5_1 = function()
+  -- line: [0.0, 0.0] id: 13
+  local r1_13 = upval_0["17"].Parent.Parent:FindFirstChild("Button4")
+  local r2_13 = upval_0["17"].Parent.Parent:FindFirstChild("Button2")
+  local r3_13 = upval_0["17"].Parent.Parent:FindFirstChild("Button3")
+  local r4_13 = Color3.fromHex("#2a2e34")
+  local r5_13 = function()
+    -- line: [0.0, 0.0] id: 14
+    if not upval_0 then
+      upval_0.BackgroundColor3 = upval_1
+    end
+    if not upval_2 then
+      upval_2.BackgroundColor3 = upval_1
+    end
+    if not upval_3 then
+      upval_3.BackgroundColor3 = upval_1
+    end
+    return
+  end
+  upval_0["17"].Parent.MouseButton1Click:Connect(r5_13)
+  return
+end
+task["spawn"](r5_1)
+local r6_1 = function()
+  -- line: [0.0, 0.0] id: 42
+  local r2_42 = Color3.fromHex("#44434d")
+  local r3_42 = function()
+    -- line: [0.0, 0.0] id: 43
+    upval_0.BackgroundColor3 = upval_1
+    return
+  end
+  upval_0["18"].Parent.MouseButton1Click:Connect(r3_42)
+  return
+end
+task["spawn"](r6_1)
+local r7_1 = function()
+  -- line: [0.0, 0.0] id: 29
+  local r2_29 = function()
+    -- line: [0.0, 0.0] id: 30
+    upval_0.Visible = true
+    return
+  end
+  upval_0["19"].Parent.MouseButton1Click:Connect(r2_29)
+  return
+end
+task["spawn"](r7_1)
+local r8_1 = function()
+  -- line: [0.0, 0.0] id: 40
+  local r4_40 = function()
+    -- line: [0.0, 0.0] id: 41
+    upval_0.Visible = false
+    upval_1.Visible = false
+    upval_2.Visible = false
+    return
+  end
+  upval_0["1a"].Parent.MouseButton1Click:Connect(r4_40)
+  return
+end
+task["spawn"](r8_1)
+local r9_1 = function()
+  -- line: [0.0, 0.0] id: 17
+  local r2_17 = game:GetService("RunService")
+  local r3_17 = upval_0["2e"].Parent:WaitForChild("fps_label")
+  local r4_17 = upval_0["2e"].Parent:WaitForChild("update_rate")
+  if r4_17.Value >= 0.25 then
+    if 2.0 < r4_17.Value then
+    end
+    if 1.0 then
+    end
+  end
+  local r6_17 = tick()
+  local r10_17 = function()
+    -- line: [0.0, 0.0] id: 18
+    local r0_18 = tick()
+    if upval_1 <= r0_18 - upval_0 then
+      local r1_18 = tostring(math.round(upval_3 * upval_4))
+      upval_2.Text = r1_18 .. " FPS"
+      upval_3 = 0
+      r0_18 = tick()
+      upval_0 = r0_18
+    end
+    upval_3 = upval_3 + 1.0
+    return
+  end
+  r1_17.run_service.RenderStepped:Connect(r10_17)
+  return
+end
+task["spawn"](r9_1)
+local r10_1 = function()
+  -- line: [0.0, 0.0] id: 15
+  local r2_15 = function()
+    -- line: [0.0, 0.0] id: 16
+    local r0_16 = loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/latest.lua"))
+    r0_16()
+    return
+  end
+  upval_0["3b"].Parent.MouseButton1Click:Connect(r2_15)
+  return
+end
+task["spawn"](r10_1)
+local r11_1 = function()
+  -- line: [0.0, 0.0] id: 19
+  local r1_19 = game:GetService("Players")
+  upval_0["3f"].Parent.Text = "Welcome, " .. r1_19.LocalPlayer.Name .. "!"
+  return
+end
+task["spawn"](r11_1)
+local r12_1 = function()
+  -- line: [0.0, 0.0] id: 51
+  local r1_51 = game:GetService("Players")
+  local r7_51, r8_51 = r1_51:GetUserThumbnailAsync(r1_51.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+  upval_0["43"].Parent.Image = r7_51
+  return
+end
+task["spawn"](r12_1)
+local r13_1 = function()
+  -- line: [0.0, 0.0] id: 22
+  upval_0["47"].Parent.Draggable = true
+  upval_0["47"].Parent.Active = true
+  return
+end
+task["spawn"](r13_1)
+local r14_1 = function()
+  -- line: [0.0, 0.0] id: 4
+  local r5_4 = function()
+    -- line: [0.0, 0.0] id: 5
+    upval_0.Text = ""
+    return
+  end
+  upval_0["4c"].Parent.MouseButton1Click:Connect(r5_4)
+  return
+end
+task["spawn"](r14_1)
+local r15_1 = function()
+  -- line: [0.0, 0.0] id: 52
+  local r5_52 = function()
+    -- line: [0.0, 0.0] id: 53
+    local r0_53 = loadstring(upval_0.Text)
+    r0_53()
+    return
+  end
+  upval_0["51"].Parent.MouseButton1Click:Connect(r5_52)
+  return
+end
+task["spawn"](r15_1)
+local r16_1 = function()
+  -- line: [0.0, 0.0] id: 33
+  local r1_33 = upval_0["58"].Parent.Parent:FindFirstChild("Button1")
+  local r2_33 = upval_0["58"].Parent.Parent:FindFirstChild("Button2")
+  local r3_33 = upval_0["58"].Parent.Parent:FindFirstChild("Button3")
+  local r4_33 = Color3.fromHex("#2a2e34")
+  local r5_33 = function()
+    -- line: [0.0, 0.0] id: 34
+    if not upval_0 then
+      upval_0.BackgroundColor3 = upval_1
+    end
+    if not upval_2 then
+      upval_2.BackgroundColor3 = upval_1
+    end
+    if not upval_3 then
+      upval_3.BackgroundColor3 = upval_1
+    end
+    return
+  end
+  upval_0["58"].Parent.MouseButton1Click:Connect(r5_33)
+  return
+end
+task["spawn"](r16_1)
+local r17_1 = function()
+  -- line: [0.0, 0.0] id: 31
+  local r4_31 = function()
+    -- line: [0.0, 0.0] id: 32
+    upval_0.Visible = false
+    upval_1.Visible = false
+    upval_2.Visible = false
+    return
+  end
+  upval_0["59"].Parent.MouseButton1Click:Connect(r4_31)
+  return
+end
+task["spawn"](r17_1)
+local r18_1 = function()
+  -- line: [0.0, 0.0] id: 58
+  local r2_58 = Color3.fromHex("#44434d")
+  local r3_58 = function()
+    -- line: [0.0, 0.0] id: 59
+    upval_0.BackgroundColor3 = upval_1
+    return
+  end
+  upval_0["5a"].Parent.MouseButton1Click:Connect(r3_58)
+  return
+end
+task["spawn"](r18_1)
+local r19_1 = function()
+  -- line: [0.0, 0.0] id: 20
+  local r2_20 = function()
+    -- line: [0.0, 0.0] id: 21
+    upval_0.Visible = true
+    return
+  end
+  upval_0["5b"].Parent.MouseButton1Click:Connect(r2_20)
+  return
+end
+task["spawn"](r19_1)
+local r20_1 = function()
+  -- line: [0.0, 0.0] id: 3
+  return
+end
+task["spawn"](r20_1)
+local r21_1 = function()
+  -- line: [0.0, 0.0] id: 2
+  return
+end
+task["spawn"](r21_1)
+local r22_1 = function()
+  -- line: [0.0, 0.0] id: 35
+  print("Hello world!")
+  local r1_35 = game:GetService("HttpService")
+  local r6_35 = function(r0_36)
+    -- line: [0.0, 0.0] id: 36
+    local r2_36 = upval_0:UrlEncode(r0_36)
+    r2_36 = upval_0:GetAsync("https://scriptblox.com/api/script/search?filters=free&q=" .. r2_36)
+    local r3_36 = upval_0:JSONDecode(r2_36)
+    local r4_36, r5_36, r6_36 = pairs(upval_1:GetChildren())
+    local r9_36 = r8_36:IsA("TextButton")
+    if not r9_36 then
+      if r8_36 ~= upval_2 then
+        r8_36:Destroy()
+      end
+    end
+    for r7_36, r8_36 in r4_36 do
+      local r4_36, r5_36, r6_36 = pairs(r3_36.result.scripts)
+      if not r8_36.isUniversal then
+      end
+      local r10_36 = upval_2:Clone()
+      r10_36.Parent = upval_1
+      r10_36.Visible = true
+      r10_36.Text = r8_36.title
+      local r11_36 = r10_36:FindFirstChild("ImageLabel")
+      if not r11_36 then
+        r11_36.Image = "https://assetgame.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid=" .. r8_36.game.gameId .. "&fmt=png&wd=420&ht=420"
+      end
+      local r14_36 = function()
+        -- line: [0.0, 0.0] id: 37
+        local r1_37 = function()
+          -- line: [0.0, 0.0] id: 38
+          local r0_38 = loadstring(upval_0.script)
+          r0_38()
+          return
+        end
+        local r0_37, r1_37 = pcall(r1_37)
+        if r0_37 then
+          warn("Failed to execute script: ", r1_37)
+        end
+        return
+      end
+      r10_36.MouseButton1Click:Connect(r14_36)
+      for r7_36, r8_36 in r4_36 do
+        r5_36 = UDim2.new(0, 0, 0, #r3_36.result.scripts * 50.0)
+        upval_1.CanvasSize = r5_36
+        return
+  end
+  local r9_35 = function()
+    -- line: [0.0, 0.0] id: 39
+    if not upval_0.Text then
+      if upval_0.Text ~= "" then
+        upval_1(upval_0.Text)
+      end
+    end
+    warn("Search query is empty.")
+    return
+  end
+  upval_0["6a"].Parent.Parent.SearchButton.MouseButton1Click:Connect(r9_35)
+  return
+end
+task["spawn"](r22_1)
+local r23_1 = function()
+  -- line: [0.0, 0.0] id: 6
+  local r1_6 = game:GetService("HttpService")
+  local r6_6 = function(r0_8)
+    -- line: [0.0, 0.0] id: 8
+    local r2_8 = upval_0:UrlEncode(r0_8)
+    r2_8 = upval_0:GetAsync("https://scriptblox.com/api/script/search?filters=free&q=" .. r2_8)
+    local r3_8 = upval_0:JSONDecode(r2_8)
+    local r4_8, r5_8, r6_8 = pairs(upval_1:GetChildren())
+    local r9_8 = r8_8:IsA("TextButton")
+    if not r9_8 then
+      if r8_8 ~= upval_2 then
+        r8_8:Destroy()
+      end
+    end
+    for r7_8, r8_8 in r4_8 do
+      local r4_8, r5_8, r6_8 = pairs(r3_8.result.scripts)
+      if not r8_8.isUniversal then
+      end
+      local r10_8 = upval_2:Clone()
+      r10_8.Parent = upval_1
+      r10_8.Visible = true
+      r10_8.Text = r8_8.title
+      local r11_8 = r10_8:FindFirstChild("ImageLabel")
+      if not r11_8 then
+        r11_8.Image = "https://assetgame.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid=" .. r8_8.game.gameId .. "&fmt=png&wd=420&ht=420"
+      end
+      local r14_8 = function()
+        -- line: [0.0, 0.0] id: 9
+        local r1_9 = function()
+          -- line: [0.0, 0.0] id: 10
+          local r0_10 = loadstring(upval_0.script)
+          r0_10()
+          return
+        end
+        local r0_9, r1_9 = pcall(r1_9)
+        if r0_9 then
+          warn("Failed to execute script: ", r1_9)
+        end
+        return
+      end
+      r10_8.MouseButton1Click:Connect(r14_8)
+      for r7_8, r8_8 in r4_8 do
+        r5_8 = UDim2.new(0, 0, 0, #r3_8.result.scripts * 50.0)
+        upval_1.CanvasSize = r5_8
+        return
+  end
+  local r9_6 = function()
+    -- line: [0.0, 0.0] id: 7
+    if not upval_0.Text then
+      if upval_0.Text ~= "" then
+        upval_1(upval_0.Text)
+      end
+    end
+    warn("Search query is empty.")
+    return
+  end
+  upval_0["6d"].Parent.Parent.SearchButton.MouseButton1Click:Connect(r9_6)
+  return
+end
+task["spawn"](r23_1)
+local r24_1 = function()
+  -- line: [0.0, 0.0] id: 60
+  local r1_60 = upval_0["78"].Parent.Parent:FindFirstChild("Button1")
+  local r2_60 = upval_0["78"].Parent.Parent:FindFirstChild("Button2")
+  local r3_60 = upval_0["78"].Parent.Parent:FindFirstChild("Button4")
+  local r4_60 = Color3.fromHex("#2a2e34")
+  local r5_60 = function()
+    -- line: [0.0, 0.0] id: 61
+    if not upval_0 then
+      upval_0.BackgroundColor3 = upval_1
+    end
+    if not upval_2 then
+      upval_2.BackgroundColor3 = upval_1
+    end
+    if not upval_3 then
+      upval_3.BackgroundColor3 = upval_1
+    end
+    return
+  end
+  upval_0["78"].Parent.MouseButton1Click:Connect(r5_60)
+  return
+end
+task["spawn"](r24_1)
+local r25_1 = function()
+  -- line: [0.0, 0.0] id: 56
+  local r4_56 = function()
+    -- line: [0.0, 0.0] id: 57
+    upval_0.Visible = false
+    upval_1.Visible = false
+    upval_2.Visible = false
+    return
+  end
+  upval_0["79"].Parent.MouseButton1Click:Connect(r4_56)
+  return
+end
+task["spawn"](r25_1)
+local r26_1 = function()
+  -- line: [0.0, 0.0] id: 46
+  local r2_46 = Color3.fromHex("#44434d")
+  local r3_46 = function()
+    -- line: [0.0, 0.0] id: 47
+    upval_0.BackgroundColor3 = upval_1
+    return
+  end
+  upval_0["7a"].Parent.MouseButton1Click:Connect(r3_46)
+  return
+end
+task["spawn"](r26_1)
+local r27_1 = function()
+  -- line: [0.0, 0.0] id: 62
+  local r2_62 = function()
+    -- line: [0.0, 0.0] id: 63
+    upval_0.Visible = true
+    return
+  end
+  upval_0["7b"].Parent.MouseButton1Click:Connect(r2_62)
+  return
+end
+task["spawn"](r27_1)
+local r28_1 = function()
+  -- line: [0.0, 0.0] id: 66
+  local r5_66 = Color3.fromHex("#00ff2a")
+  local r6_66 = Color3.fromHex("#636363")
+  local r7_66 = function()
+    -- line: [0.0, 0.0] id: 67
+    if upval_0 == upval_1 then
+      upval_2.Image = upval_3
+      upval_2.ImageColor3 = upval_4
+      upval_0 = upval_3
+    end
+    upval_2.Image = upval_1
+    upval_2.ImageColor3 = upval_5
+    upval_0 = upval_1
+    return
+  end
+  upval_0["7f"].Parent.MouseButton1Click:Connect(r7_66)
+  return
+end
+task["spawn"](r28_1)
+local r29_1 = function()
+  -- line: [0.0, 0.0] id: 54
+  local r1_54 = function()
+    -- line: [0.0, 0.0] id: 55
+    setfpscap(9999.0)
+    return
+  end
+  upval_0["80"].Parent.MouseButton1Click:Connect(r1_54)
+  return
+end
+task["spawn"](r29_1)
+local r30_1 = function()
+  -- line: [0.0, 0.0] id: 44
+  local r2_44 = upval_0["86"].Parent.Parent:WaitForChild("ImageButton")
+  local r3_44 = upval_0["86"].Parent.Parent.Parent:WaitForChild("ui")
+  local r7_44 = function()
+    -- line: [0.0, 0.0] id: 45
+    upval_0.Visible = false
+    upval_1.Visible = true
+    return
+  end
+  upval_0["86"].Parent.MouseButton1Click:Connect(r7_44)
+  return
+end
+task["spawn"](r30_1)
+local r31_1 = function()
+  -- line: [0.0, 0.0] id: 25
+  local r3_25 = upval_0["87"].Parent.Parent.Parent:WaitForChild("ImageButton")
+  r3_25.Visible = true
+  local r6_25 = function()
+    -- line: [0.0, 0.0] id: 26
+    upval_0.Visible = true
+    return
+  end
+  upval_0["87"].Parent.MouseButton1Click:Connect(r6_25)
+  return
+end
+task["spawn"](r31_1)
+local r32_1 = function()
+  -- line: [0.0, 0.0] id: 50
+  upval_0["8a"].Parent.Draggable = true
+  upval_0["8a"].Parent.Active = true
+  return
+end
+task["spawn"](r32_1)
+local r33_1 = function()
+  -- line: [0.0, 0.0] id: 64
+  local r3_64 = upval_0["8b"].Parent.Parent:WaitForChild("ui")
+  r3_64.Visible = false
+  local r6_64 = function()
+    -- line: [0.0, 0.0] id: 65
+    upval_0.Visible = false
+    upval_1.Visible = true
+    return
+  end
+  upval_0["8b"].Parent.MouseButton1Click:Connect(r6_64)
+  return
+end
+task["spawn"](r33_1)
+return r0_1["1"], require
