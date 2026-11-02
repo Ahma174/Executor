@@ -1,4 +1,4 @@
--- most of it was smade by claude BUT removed unnecessary stuff like unnecessary comments and variables
+-- most of it was made by claude BUT removed unnecessary stuff like unnecessary comments and variables
 local function p(path) return "Arceus" .. "/" .. tostring(path or "") end
 local function mk() if not isfolder("Arceus") then makefolder("Arceus") end end
 mk()
