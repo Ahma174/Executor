@@ -1,3 +1,8 @@
+-- adapter
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Executor/refs/heads/main/AX%20Adapter.luau"))()
+
+task.wait(0.1)
+
 -- Gui to Lua
 -- Version: 3.2 - Exp
 
