@@ -484,7 +484,8 @@ do
 
 	--[[ Functions ]]--
 
-	function monitorHandlers.fps(frame: Frame, monitor: any, value: any)
+	--[[
+    function monitorHandlers.fps(frame: Frame, monitor: any, value: any)
 		local percentage = math.clamp(value / monitor.max, 0, 1);
 		frame.text.Text = math.round(value);
 		utils:Tween(frame.icon.background.highlight.gradient, 0.25, {
@@ -523,6 +524,7 @@ do
 	function monitorHandlers.playerCount(frame: Frame, monitor: any, value: any)
 		frame.text.Text = value;
 	end
+    ]]
 
 	--[[ Module ]]--
 
