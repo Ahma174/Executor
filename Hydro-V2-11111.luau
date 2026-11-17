@@ -1,4 +1,5 @@
 -- FIXED BY SJJSKSJSNNNSNS
+-- CURRENTLY BROKEN
 -- Plato configuration
 local accountId = 25857; -- Plato account id [IMPORTANT]
 local allowPassThrough = true; -- Allow user through if error occurs, may reduce security
@@ -484,7 +485,6 @@ do
 
 	--[[ Functions ]]--
 
-	--[[
     function monitorHandlers.fps(frame: Frame, monitor: any, value: any)
 		local percentage = math.clamp(value / monitor.max, 0, 1);
 		frame.text.Text = math.round(value);
@@ -524,7 +524,6 @@ do
 	function monitorHandlers.playerCount(frame: Frame, monitor: any, value: any)
 		frame.text.Text = value;
 	end
-    ]]
 
 	--[[ Module ]]--
 
